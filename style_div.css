@@ -1,0 +1,103 @@
+body {
+color:ffa5d5;
+background-color:white;
+
+}	
+div#bandeau {
+	color:2929db;
+	width:100%;
+	height:25%;
+	background-color:#00CCFF;
+
+	background: #E4EFFF url(img/dboracle2.jpg) no-repeat right bottom;
+	 background-repeat:no-repeat;
+background-position: right;
+
+        
+	}
+	
+
+div#contenu {
+	
+	width:98%;
+	height:100%;
+	background-image:url(img/bg21.jpg);
+		
+		
+	float:left;
+	padding : 20px;
+	}
+	
+div#piedpage {
+	width:100%;
+	height:27px;
+	background-color:#00CCFF;
+text-align:center;
+
+	}
+	div#menu {
+	float:left;
+	width:100px;
+	height:400px;
+	background-color:#FF6699;
+	
+	}
+.cadre {
+            border: 1px solid black;
+            padding: 30px;
+            width: 150px;
+        }
+.pressed {
+      background-color: #ccc;
+    }
+.button {
+ margin-right: 10px;
+ padding : 10px;
+ font-weight:bold;
+background-color: black;
+  color:8ecc74;
+
+        }
+.combobox {
+            margin-right: 10px;
+			 padding : 10px;
+        }
+.titre {
+            margin-right: 10px;
+        }
+.espace-mots {
+            word-spacing: 500px;
+        }
+.container {
+            display: flex;
+            align-items: center;
+			position: relative;
+			text-align:center;
+        }
+
+
+ .image-container {
+            margin-left: 20px; /* ou padding-left: 20px; */
+        }
+.image {
+            position: absolute;
+            top: 0;
+            left: 0;
+			
+			float:right;
+		
+        }
+.imag2 {
+
+background-position:right top;
+		
+		}
+		
+#btnControl {
+    display: none;
+}
+button:active {
+    background-color: red;
+    outline: none; /* Pour enlever la bordure bleu */
+}
+
